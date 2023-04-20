@@ -141,6 +141,13 @@ nav ul li{
 .articulo-servisios{
     margin: 0 5%;
 }
+.articulo-servisios h3{
+    text-align: center;
+}
+.articulo-servisios p{
+    text-indent: 8%;
+    text-align: justify;
+}
 /*****************************************************/
 /* Contacto */
 .contacto{
@@ -190,7 +197,7 @@ footer{
     color: white;
 }
 /************************************************************************************************/
-@media(max-width:960px){
+@media screen and (max-width:960px){
     /*****************************************************/
     /* Header */
     .btn-menu{
@@ -253,10 +260,16 @@ footer{
     }
 }
 /************************************************************************************************/
-@media(max-width: 576px){
+@media screen and (max-width: 576px){
     /*****************************************************/
     /* Servicios */
     .articulos-servicios-agupados{
         grid-template-columns: auto;
+    }
+    .container-logo{
+        padding-top: 10px;
+    }
+    .nombre{
+        font-size: 1.3em;
     }
 }
